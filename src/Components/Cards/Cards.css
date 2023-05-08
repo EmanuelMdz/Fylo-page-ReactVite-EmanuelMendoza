@@ -1,0 +1,76 @@
+.card-testim-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 30px;
+}
+.card-testimonial {
+  background-color: hsl(219, 30%, 18%);
+  width: 280px;
+  height: 130px;
+  margin: 16px;
+  padding: 25px;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.card-testimonial p {
+  color: rgb(207, 207, 207);
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.card-t-logoynombre {
+  display: flex;
+  text-align: left;
+}
+.card-t-nombre h6 {
+  font-weight: bold;
+  font-size: xx-small;
+  margin: 0px;
+  margin-left: 5px;
+}
+.card-t-nombre p {
+  font-weight: 400;
+  margin: 3px;
+  font-size: xx-small;
+  margin-left: 5px;
+}
+
+.card-t-logo img {
+  width: 23px;
+  border-radius: 100%;
+}
+#img-quotes {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: 50px;
+  bottom: 9px;
+  z-index: 1;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 390px) {
+  #img-quotes {
+    top: 30px;
+    left: -120px;
+  }
+  .card-testim-container {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 820px) {
+  .card-testim-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #img-quotes {
+    top: 30px;
+    left: -120px;
+  }
+}

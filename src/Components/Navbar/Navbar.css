@@ -1,0 +1,23 @@
+nav {
+  background-color: hsl(217, 28%, 15%);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: rgb(207, 207, 207);
+  margin: 0px 10px 0px 10px;
+}
+
+.nav-logo img {
+  width: 100px;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+  color: white;
+}

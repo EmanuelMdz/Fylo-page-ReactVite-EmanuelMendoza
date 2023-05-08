@@ -1,0 +1,23 @@
+.hero-img img {
+  width: 500px;
+  margin: 50px;
+}
+.hero-div-padre h1 {
+  max-width: 550px;
+}
+.hero-div-padre p {
+  max-width: 510px;
+  color: rgb(207, 207, 207);
+}
+.hero-div-padre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 390px) {
+  .hero-img img {
+    width: 270px;
+  }
+}

@@ -1,0 +1,21 @@
+.button-celeste {
+  cursor: pointer;
+  width: 280px;
+  height: 40px;
+  border-radius: 40px;
+  color: white;
+  font-weight: bolder;
+  border-style: none;
+  background-image: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+}
+.button-celeste:hover {
+  background-image: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(176, 68%, 64%)
+  );
+}

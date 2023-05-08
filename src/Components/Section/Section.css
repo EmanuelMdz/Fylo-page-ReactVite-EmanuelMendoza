@@ -1,0 +1,33 @@
+.section-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.section-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  text-align: left;
+  justify-content: center;
+}
+.section-text h1 {
+  font-size: 220%;
+}
+.section-text p {
+  color: rgb(207, 207, 207);
+}
+.section-text a {
+  color: rgb(207, 207, 207);
+  text-decoration: none;
+}
+
+.section-img img {
+  width: 100%;
+}
+.section-text a img {
+  width: 11px;
+  margin-left: 3px;
+}
+.section-text a:hover {
+  text-decoration: underline;
+}
