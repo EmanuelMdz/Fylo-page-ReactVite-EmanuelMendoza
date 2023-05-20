@@ -17,14 +17,12 @@ export const Cards = () => {
         nombre="Bruce McKenzie"
         puesto="Founder & CEO, Huddle"
         p="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-olled collaboration machine."
-        quotes="false"
       ></Card>
       <Card
         type="iva"
         nombre="Iva Boyd"
         puesto="Founder & CEO, Huddle"
         p="Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine."
-        quotes=""
       ></Card>
     </div>
   );

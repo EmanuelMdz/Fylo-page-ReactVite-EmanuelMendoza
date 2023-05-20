@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
+import { Features } from "../Features/Features";
 
 export const Navbar = () => {
   return (
@@ -8,7 +10,7 @@ export const Navbar = () => {
         <img src="public\icons\logo.svg" alt="" />
       </div>
       <div className="nav-menu">
-        <a href="#features-id">Features</a>
+        <Link to={"/features"}>Features</Link>
         <a href="#team-id">Team</a>
         <a href="#signin-id">Sign In</a>
       </div>

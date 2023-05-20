@@ -4,7 +4,7 @@ import "./Cards.css";
 export const Card = (prop) => {
   return (
     <>
-      {prop.quotes === "true" ? (
+      {prop.quotes == "true" ? (
         <img id="img-quotes" src="public\images\bg-quotes.png" alt="" />
       ) : (
         confirm

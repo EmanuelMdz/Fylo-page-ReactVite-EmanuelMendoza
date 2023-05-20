@@ -1,42 +1,55 @@
 import React from "react";
 import "./Features.css";
 import { Feature } from "./Feature";
+import { Button } from "../Buttons/Button";
+import { useNavigate } from "react-router-dom";
 
-export const Features = () => {
+export const Features = (props) => {
+  const navigate = useNavigate();
+  const clickVolver = () => {
+    navigate("/");
+  };
+
   return (
-    <section id="features-id">
-      <div className="card-up">
-        <div className="card-container">
-          <Feature
-            type="access"
-            title="Access your files, anywhere"
-            p="The ability to use a smartphone, tablet, or computer to access your account means your fules follow you everywhere."
-          ></Feature>
+    <>
+      {" "}
+      <section id="features-id">
+        <div className="card-up">
+          <div className="card-container">
+            <Feature
+              type="access"
+              title="Access your files, anywhere"
+              p="The ability to use a smartphone, tablet, or computer to access your account means your fules follow you everywhere."
+            ></Feature>
+          </div>
+          <div className="card-container">
+            <Feature
+              type="security"
+              title="Security you can trust"
+              p="2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files."
+            ></Feature>
+          </div>
         </div>
-        <div className="card-container">
-          <Feature
-            type="security"
-            title="Security you can trust"
-            p="2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files."
-          ></Feature>
+        <div className="card-down">
+          <div className="card-container">
+            <Feature
+              type="realtime"
+              title="Real-time collaboration"
+              p="Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required."
+            ></Feature>
+          </div>
+          <div className="card-container">
+            <Feature
+              type="store"
+              title="Store any type of file"
+              p="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared."
+            ></Feature>
+          </div>
         </div>
-      </div>
-      <div className="card-down">
-        <div className="card-container">
-          <Feature
-            type="realtime"
-            title="Real-time collaboration"
-            p="Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required."
-          ></Feature>
-        </div>
-        <div className="card-container">
-          <Feature
-            type="store"
-            title="Store any type of file"
-            p="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared."
-          ></Feature>
-        </div>
-      </div>
-    </section>
+      </section>
+      {props.hideButton && (
+        <Button text="Volver al Inicio" onClick={clickVolver} />
+      )}
+    </>
   );
 };
