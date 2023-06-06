@@ -7,7 +7,7 @@ export const Card = (prop) => {
       {prop.quotes == "true" ? (
         <img id="img-quotes" src="public\images\bg-quotes.png" alt="" />
       ) : (
-        confirm
+        <div></div>
       )}
       <div className="card-testimonial">
         <p>{prop.p}</p>
@@ -20,7 +20,7 @@ export const Card = (prop) => {
             ) : prop.type === "iva" ? (
               <img src="public\images\profile-3.jpg" alt="" />
             ) : (
-              confirm
+              <div></div>
             )}
           </div>
           <div className="card-t-nombre">

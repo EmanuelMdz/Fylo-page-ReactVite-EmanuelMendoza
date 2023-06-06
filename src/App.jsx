@@ -10,12 +10,12 @@ import { Footer } from "./Components/Footer";
 function App() {
   return (
     <main>
-      <Navbar></Navbar>
+      <Navbar />
       <Hero></Hero>
       <div className="fondo">
         <Features></Features>
         <Section></Section>
-        <Cards></Cards>
+        <Cards />
         <SignUp></SignUp>
       </div>
       <Footer></Footer>
