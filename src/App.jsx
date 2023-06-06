@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import { Navbar } from "./Components/Navbar";
+import { Navbar } from "./Components/Navbar1/Navbar";
 import { Hero } from "./Components/Hero";
 import { Features } from "./Components/Features/Features";
 import { Section } from "./Components/Section";
