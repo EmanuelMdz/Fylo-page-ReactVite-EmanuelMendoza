@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import { Features } from "../Features/Features";
 
 export const Navbar = () => {
   return (
