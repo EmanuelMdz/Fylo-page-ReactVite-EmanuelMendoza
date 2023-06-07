@@ -6,7 +6,7 @@ export const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo">
-        <img src="../../public/icons/logo.svg" alt="Logo" />
+        <img src="public/icons/logo.svg" alt="Logo" />
       </div>
       <div className="nav-menu">
         <Link to={"/features"}>Features</Link>
