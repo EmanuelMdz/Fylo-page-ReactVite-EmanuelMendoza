@@ -6,10 +6,7 @@ export const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo">
-        <img
-          src="https://github.com/EmanuelMdz/Fylo-page-ReactVite-EmanuelMendoza/blob/main/public/icons/logo.svg"
-          alt="Logo"
-        />
+        <img src="../public/icons/logo.svg" alt="Logo" />
       </div>
       <div className="nav-menu">
         <Link to={"/features"}>Features</Link>
