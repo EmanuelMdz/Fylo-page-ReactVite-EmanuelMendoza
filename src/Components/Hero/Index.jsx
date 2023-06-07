@@ -6,7 +6,7 @@ export const Hero = () => {
   return (
     <div className="hero-div-padre">
       <div className="hero-img">
-        <img src="public\images\illustration-intro.png" alt="Imagen Hero" />
+        <img src="public/images/illustration-intro.png" alt="Imagen Hero" />
       </div>
       <h1>All your files in one secure location, accessible anywhere.</h1>
       <p>
