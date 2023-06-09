@@ -5,7 +5,7 @@ export const Section = () => {
   return (
     <section className="section-div">
       <div className="section-img">
-        <img src="public\images\illustration-stay-productive.png" alt="" />
+        <img src="../images/illustration-stay-productive.png" alt="" />
       </div>
       <div className="section-text">
         <h1>Stay productive, wherever you are</h1>
@@ -18,7 +18,7 @@ export const Section = () => {
           for live collaboration. No email attachments required
         </p>
         <a href="#features-id">
-          See how Fylo works <img src="public\icons\flechaderecha.png" alt="" />
+          See how Fylo works <img src="../icons/flechaderecha.png" alt="" />
         </a>
       </div>
     </section>

@@ -5,7 +5,7 @@ export const Card = (prop) => {
   return (
     <>
       {prop.quotes == "true" ? (
-        <img id="img-quotes" src="public\images\bg-quotes.png" alt="" />
+        <img id="img-quotes" src="../images/bg-quotes.png" alt="" />
       ) : (
         <div></div>
       )}
@@ -14,11 +14,11 @@ export const Card = (prop) => {
         <div className="card-t-logoynombre">
           <div className="card-t-logo">
             {prop.type === "satish" ? (
-              <img src="public\images\profile-1.jpg" alt="" />
+              <img src="../images/profile-1.jpg" alt="" />
             ) : prop.type === "bruce" ? (
-              <img src="public\images\profile-2.jpg" alt="" />
+              <img src="../images/profile-2.jpg" alt="" />
             ) : prop.type === "iva" ? (
-              <img src="public\images\profile-3.jpg" alt="" />
+              <img src="../images/profile-3.jpg" alt="" />
             ) : (
               <div></div>
             )}
