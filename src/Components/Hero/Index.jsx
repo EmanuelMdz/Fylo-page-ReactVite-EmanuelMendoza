@@ -7,7 +7,7 @@ export const Hero = () => {
     <div className="hero-div-padre">
       <div className="hero-img">
         <img
-          src="https://github.com/EmanuelMdz/Fylo-page-ReactVite-EmanuelMendoza/blob/main/public/images/illustration-intro.png?raw=true"
+          src="../images/illustration-intro.png?raw=true"
           alt="Imagen Hero"
         />
       </div>
